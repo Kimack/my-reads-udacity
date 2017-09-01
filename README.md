@@ -45,7 +45,7 @@ for you to use with your app.
 
 ## Additional Functionalities
 
-To make all the Shelves / Search experience prettier, some built in functionalities are added like:
+To make all the Shelves / Search experience prettier, some built in functionalities are added:
 
 ### Preloading Icons
 ![Preloading Icons](https://github.com/s1m0n3ak1/ "Preload Icons Demo")
@@ -55,6 +55,9 @@ To make all the Shelves / Search experience prettier, some built in functionalit
 
 ### If Shelves are empty message
 ![Empty Shelf](https://github.com/s1m0n3ak1/ "Empty Shelf Demo")
+
+### Book Checkmark on Search
+![Book Checkmark](https://github.com/s1m0n3ak1/ "Book Checkmark on Search")
 
 ## Additional Libraries
 
