@@ -49,14 +49,22 @@ To make all the Shelves / Search experience prettier, some built in functionalit
 ### Preloading Icons
 ![Preloading Icons](https://github.com/s1m0n3ak1/my-reads-udacity/blob/master/gifs/loading_shelves.gif "Preload Icons Demo")
 
+---
+
 ### Book Details Panel
 ![Book Details](https://github.com/s1m0n3ak1/my-reads-udacity/blob/master/gifs/detail_panel.gif "Book Details Demo")
+
+---
 
 ### Book Checkmark on Search Results
 ![Book Checkmark](https://github.com/s1m0n3ak1/my-reads-udacity/blob/master/gifs/onsearch_checkmark.gif "Book Details Demo")
 
+---
+
 ### If Shelves are empty message
 ![Empty Shelf](https://github.com/s1m0n3ak1/my-reads-udacity/blob/master/gifs/shlef_placeholder.gif "Empty Shelf Demo")
+
+---
 
 ## Additional Libraries
 
