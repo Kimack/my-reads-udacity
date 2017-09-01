@@ -18,14 +18,13 @@ On Terminal type `npm start` or `yarn start`.
   |-- arrow-drop-down.svg
  +-- Components/ - All the components you need to make work this application
   +-- Books/
+   |-- Book.js - Component to render Searches and Shelves
+  +-- Shelves/
    +-- Shelf/
-    |-- Book.js
-    |-- Shelf.js
-   |-- index.js
+    |-- Shelf.js - Component to render a single Shelf
+   |-- index.js - Component to render Shelves
   +-- Search/
-   +-- Books/
-    |-- Books.js
-   |-- index.js
+   |-- index.js - Component to render Searches
  |-- App.js - This is the root of your app. Contains static HTML right now.
  |-- App.css - Styles for your app. Feel free to customize this as you desire.
  |-- App.test.js - Used for testing. Provided with Create React App.
@@ -45,19 +44,19 @@ for you to use with your app.
 
 ## Additional Functionalities
 
-To make all the Shelves / Search experience prettier, some built in functionalities are added:
+To make all the Shelves / Search experience prettier, some built in functionalities are added like:
 
 ### Preloading Icons
-![Preloading Icons](https://github.com/s1m0n3ak1/ "Preload Icons Demo")
+![Preloading Icons](https://github.com/s1m0n3ak1/my-reads-udacity/blob/master/gifs/loading_shelves.gif "Preload Icons Demo")
 
 ### Book Details Panel
-![Book Details](https://github.com/s1m0n3ak1/ "Book Details Demo")
+![Book Details](https://github.com/s1m0n3ak1/my-reads-udacity/blob/master/gifs/detail_panel.gif "Book Details Demo")
+
+### Book Checkmark on Search Results
+![Book Checkmark](https://github.com/s1m0n3ak1/my-reads-udacity/blob/master/gifs/onsearch_checkmark.gif "Book Details Demo")
 
 ### If Shelves are empty message
-![Empty Shelf](https://github.com/s1m0n3ak1/ "Empty Shelf Demo")
-
-### Book Checkmark on Search
-![Book Checkmark](https://github.com/s1m0n3ak1/ "Book Checkmark on Search")
+![Empty Shelf](https://github.com/s1m0n3ak1/my-reads-udacity/blob/master/gifs/shlef_placeholder.gif "Empty Shelf Demo")
 
 ## Additional Libraries
 
