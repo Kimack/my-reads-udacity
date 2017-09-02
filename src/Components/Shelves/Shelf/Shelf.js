@@ -19,20 +19,15 @@ export default class Shelf extends Component {
         <h2 className="bookshelf-title">{ shelfName }</h2>
         <div className="bookshelf-books">
           <ol className="books-grid">
-            {/* if books length is equal to 0 and state.loading is true */}
-            { theseBooks.length === 0 && loading && (
+            { theseBooks.length === 0 ?
               <div className="no-books">
-                <Ionicon icon="ion-load-c" fontSize="60px" color="#009688" rotate={ true } />
+                { loading ?
+                  <Ionicon icon="ion-load-c" fontSize="60px" color="#009688" rotate={ true } />
+                :
+                  'No books in this Shelf.'
+                }
               </div>
-            )}
-            {/* if books length is equal to 0 and state.loading is false */}
-            { theseBooks.length === 0 && !loading && (
-              <div className="no-books">
-                No books in this Shelf.
-              </div>
-            )}
-            {/* if books length is not equal to 0 and state.loading is false */}
-            { theseBooks !== undefined &&
+              :
               theseBooks.map((book) => (
               <Book
                 context='list'

@@ -82,8 +82,9 @@ export default class Book extends Component {
 
           { authors !== undefined &&
             authors.map((athor) => (
-            <div key={ athor } className="book-authors">{ athor }</div>
-          ))}
+              <div key={ athor } className="book-authors">{ athor }</div>
+            ))
+          }
 
           <div className="book-rating">
 
